@@ -20,6 +20,7 @@ Bem-vindo ao **StockPrices BR**! Este projeto é sua plataforma completa para me
 
 O projeto está organizado da seguinte forma para manter tudo claro e acessível:
 
+```
 stockprices/
 ├── data/                  # Armazenamento de dados
 │   ├── raw/               # Dados brutos baixados (CSVs individuais por ticker)
@@ -33,7 +34,7 @@ stockprices/
 │   └── main.py              # Script principal para orquestrar o pipeline
 ├── requirements.txt       # Lista de dependências do projeto Python
 └── README.md              # Este arquivo incrível que você está lendo!
-
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
