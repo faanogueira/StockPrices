@@ -21,20 +21,16 @@ Bem-vindo ao **StockPrices BR**! Este projeto é sua plataforma completa para me
 O projeto está organizado da seguinte forma para manter tudo claro e acessível:
 
 stockprices/
-│
-├── data/                  #  хранения de dados
+├── data/                  # Armazenamento de dados
 │   ├── raw/               # Dados brutos baixados (CSVs individuais por ticker)
 │   └── processed/         # Dados limpos e processados (CSVs individuais por ticker)
-│
 ├── notebooks/             # Notebooks Jupyter para análise exploratória e visualização
 │   └── visualizacao_acao_exemplo.ipynb # Exemplo de notebook para visualização
-│
 ├── src/                   # Código fonte principal do projeto
-│   ├── init.py
+│   ├── __init__.py        # Inicializador do pacote src
 │   ├── data_acquisition.py  # Script para baixar os dados das ações
 │   ├── preprocessing.py     # Script para limpar e pré-processar os dados
 │   └── main.py              # Script principal para orquestrar o pipeline
-│
 ├── requirements.txt       # Lista de dependências do projeto Python
 └── README.md              # Este arquivo incrível que você está lendo!
 
