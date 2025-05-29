@@ -22,18 +22,17 @@ O projeto está organizado da seguinte forma para manter tudo claro e acessível
 
 ```
 stockprices/
-├── data/                  # Armazenamento de dados
-│   ├── raw/               # Dados brutos baixados (CSVs individuais por ticker)
-│   └── processed/         # Dados limpos e processados (CSVs individuais por ticker)
-├── notebooks/             # Notebooks Jupyter para análise exploratória e visualização
-│   └── visualizacao_acao_exemplo.ipynb # Exemplo de notebook para visualização
-├── src/                   # Código fonte principal do projeto
-│   ├── __init__.py        # Inicializador do pacote src
-│   ├── data_acquisition.py  # Script para baixar os dados das ações
-│   ├── preprocessing.py     # Script para limpar e pré-processar os dados
-│   └── main.py              # Script principal para orquestrar o pipeline
-├── requirements.txt       # Lista de dependências do projeto Python
-└── README.md              # Este arquivo incrível que você está lendo!
+├── data/                           # Armazenamento de dados
+│   ├── raw/                        # Dados brutos baixados (CSVs individuais por ticker)
+│   └── processed/                  # Dados limpos e processados (CSVs individuais por ticker)
+├── notebooks/                      # Notebooks Jupyter para análise exploratória e visualização
+│   └── visualizacao_PETR4.ipynb    # Exemplo de notebook para visualização
+├── src/                            # Código fonte principal do projeto
+│   ├── data_acquisition.py         # Script para baixar os dados das ações
+│   ├── preprocessing.py            # Script para limpar e pré-processar os dados
+│   └── main.py                     # Script principal para orquestrar o pipeline
+├── requirements.txt                # Lista de dependências do projeto Python
+└── README.md                       # Este arquivo incrível que você está lendo!
 ```
 
 ## 🛠️ Tecnologias Utilizadas
