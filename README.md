@@ -55,7 +55,7 @@ Siga estes passos para configurar o ambiente e rodar o projeto:
 2.  **Clone o Repositório:**
     (Se o seu projeto estiver no GitHub, substitua pela URL correta)
     ```bash
-    git clone [https://github.com/SEU_USUARIO/stockprices.git](https://github.com/SEU_USUARIO/stockprices.git)
+    git clone [https://github.com/faanogueira/stockprices.git](https://github.com/faanogueira/stockprices.git)
     cd stockprices
     ```
 
